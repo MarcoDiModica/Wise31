@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{10DE9265-F97E-4074-885A-4D86E2FAE67F}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{10DE9265-F97E-4074-885A-4D86E2FAE67F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{68B97C98-DC16-4D61-B524-14A9D16FD68F}" ShortID="311092766">
+					<ChildrenList>
+						<Sound Name="BAS_Button_Close" ID="{B9AEE557-F860-4754-8C25-2AB5CC5E0585}" ShortID="666060222">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Button_Close" ID="{CD36122A-93A5-4219-961F-22521066F080}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Button_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="644939712"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Button_Close" ID="{CD36122A-93A5-4219-961F-22521066F080}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Button_Enter" ID="{31002EE5-B300-4EE9-BF0B-05AC4573A1E5}" ShortID="504444548">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Button_Enter" ID="{8F892AA8-2E2F-40E8-AE63-5B1C10F79173}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Button_Enter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483398589"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Button_Enter" ID="{8F892AA8-2E2F-40E8-AE63-5B1C10F79173}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Button_Open" ID="{A3396E4C-E678-455F-B052-EA6F5FB00B52}" ShortID="109013361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Button_Open" ID="{B5D181DF-23C4-4104-B456-469032F7D4F8}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Button_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="203336695"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Button_Open" ID="{B5D181DF-23C4-4104-B456-469032F7D4F8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Button_Over" ID="{F8DF6E12-0B12-4BF5-8F5A-58317A20ADE3}" ShortID="22162518">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Button_Over" ID="{7D5CF1DC-6C2C-4CCE-8638-DB9FC04600C1}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Button_Over.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="741947468"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Button_Over" ID="{7D5CF1DC-6C2C-4CCE-8638-DB9FC04600C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Button_Teleport" ID="{FF0C510D-44D3-4170-9FB4-03C5FE2D5CCE}" ShortID="99121685">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Button_Teleport" ID="{2907EF3A-D348-4A3B-915C-C3F436C1E6CF}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Button_Teleport.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="332767719"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Button_Teleport" ID="{2907EF3A-D348-4A3B-915C-C3F436C1E6CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Inventory_Close" ID="{A42DE9E2-0D3B-4E5E-9CE4-D980BD7BB351}" ShortID="824346678">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Inventory_Close" ID="{E3D965CA-BB5C-4414-B9C4-BA594E143750}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Inventory_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="760162598"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Inventory_Close" ID="{E3D965CA-BB5C-4414-B9C4-BA594E143750}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Inventory_Open" ID="{8C5A6B83-B140-473D-9F68-31883236BFB4}" ShortID="35211636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Inventory_Open" ID="{AEAA9324-58DC-4EA4-84D6-E2C46E16D2D6}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Inventory_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="36758458"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Inventory_Open" ID="{AEAA9324-58DC-4EA4-84D6-E2C46E16D2D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Inventory_Scroll" ID="{5460F5B6-6165-4FB4-964E-5A3AA0CADAE3}" ShortID="339490760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Inventory_Scroll" ID="{344A3A8C-36BA-4473-A2E3-A3E2748F8FE5}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Inventory_Scroll.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="836281137"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Inventory_Scroll" ID="{344A3A8C-36BA-4473-A2E3-A3E2748F8FE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Inventory_Select" ID="{CCF897FD-3572-4487-B842-F2EC22D5FA02}" ShortID="236215712">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Inventory_Select" ID="{2CADA225-B4C8-495A-98CA-14A81789ACA9}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_Inventory_Select.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="891646298"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Inventory_Select" ID="{2CADA225-B4C8-495A-98CA-14A81789ACA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_QuestRoll_Close" ID="{9F9F31A3-B37B-49DE-A4C3-BAD6A2F0C580}" ShortID="371479361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_QuestRoll_Close" ID="{CB3629DF-84DD-4C28-BC34-5323FE9CB6BE}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_QuestRoll_Close.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="38449853"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_QuestRoll_Close" ID="{CB3629DF-84DD-4C28-BC34-5323FE9CB6BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_QuestRoll_Open" ID="{C208159A-1E86-4313-9545-ABF65BA9885A}" ShortID="659891960">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_QuestRoll_Open" ID="{C4DA2327-FC74-4D70-8F19-E97CCB8F2898}">
+									<Language>SFX</Language>
+									<AudioFile>UI\BAS_QuestRoll_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="586320715"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_QuestRoll_Open" ID="{C4DA2327-FC74-4D70-8F19-E97CCB8F2898}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Destruction" ID="{4897D545-6A3C-48F4-BD8F-370B0FA7C586}" ShortID="769797088">
+					<ChildrenList>
+						<Folder Name="Volcanic Boulder" ID="{A7F7C0EB-E600-4CFB-A9CC-DB80778E837E}" ShortID="1025318929">
+							<ChildrenList>
+								<Sound Name="DebrisDirt" ID="{D066E54E-6904-4594-B017-732DF47E8437}" ShortID="904520623">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DebrisDirt" ID="{EADBEFF0-00BD-4C0C-97B9-6E77BDE9547F}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\Volcanic Boulder\DebrisDirt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="126579157"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="DebrisDirt" ID="{EADBEFF0-00BD-4C0C-97B9-6E77BDE9547F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Explosion" ID="{669D8197-3430-4286-A84F-0F0AF7E8A462}" ShortID="556544220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Explosion" ID="{5603A926-7050-4A0A-80CC-1362B15CC5D5}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\Volcanic Boulder\Explosion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679045802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Explosion" ID="{5603A926-7050-4A0A-80CC-1362B15CC5D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="BAS_Crystals_Destroy" ID="{377E0DB7-751B-47BB-B217-B714440390B9}" ShortID="839980997">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Crystals_Destroy" ID="{453F2667-A095-48F5-B1A8-9BDC21ABECCB}">
+									<Language>SFX</Language>
+									<AudioFile>Destruction\BAS_Crystals_Destroy.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994843975"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Crystals_Destroy" ID="{453F2667-A095-48F5-B1A8-9BDC21ABECCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Crate_Destroyer" ID="{15E7CA93-6647-415B-B762-0D00780F7788}" ShortID="918474014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_Crate_Destroy_04" ID="{136826E6-0D3F-4A98-8C5F-35EBE124B7DD}" ShortID="194210209">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crate_Destroy_04" ID="{D17C0ADB-6ECA-4D15-A3C2-143F875F66AF}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Crate_Destroy_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="930835932"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crate_Destroy_04" ID="{D17C0ADB-6ECA-4D15-A3C2-143F875F66AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Crate_Destroy_06" ID="{008F5338-4918-407D-80F7-DE5DB43D92C5}" ShortID="192853119">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crate_Destroy_06" ID="{063A0167-A975-4138-AD50-2076CCC7F439}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Crate_Destroy_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932511422"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crate_Destroy_06" ID="{063A0167-A975-4138-AD50-2076CCC7F439}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Crate_Destroy_02" ID="{EB882C11-B7EF-4E0E-90EC-0965C9F3CE3E}" ShortID="653021219">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crate_Destroy_02" ID="{4E21DA72-9070-4A52-B513-9EB5F33A3828}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Crate_Destroy_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413054229"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crate_Destroy_02" ID="{4E21DA72-9070-4A52-B513-9EB5F33A3828}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Crate_Destroy_03" ID="{E8C6DBEF-5550-4F02-B568-AAFF002A213E}" ShortID="66092675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crate_Destroy_03" ID="{CCD58380-CFFB-47B8-AB9B-3614C011F3B8}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Crate_Destroy_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1774805"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crate_Destroy_03" ID="{CCD58380-CFFB-47B8-AB9B-3614C011F3B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Crate_Destroy_01" ID="{564E1B4E-58EA-499B-8A33-D25C4DE9B0E5}" ShortID="118444768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crate_Destroy_01" ID="{4575CBF3-DA03-4402-AEA5-8C0937EE3C44}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Crate_Destroy_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055919339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crate_Destroy_01" ID="{4575CBF3-DA03-4402-AEA5-8C0937EE3C44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Crate_Destroy_05" ID="{56CE2489-D47C-4060-9F0E-082AA812EF8D}" ShortID="97866350">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Crate_Destroy_05" ID="{2D844BE2-AAE4-4BE8-B8C1-72DFB3D9AFF4}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Crate_Destroy_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156977604"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Crate_Destroy_05" ID="{2D844BE2-AAE4-4BE8-B8C1-72DFB3D9AFF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Rock_Destroyer" ID="{F52336AD-43C1-406E-BA88-098B40B0A24D}" ShortID="762512417">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_Destroy_Rock_01" ID="{F532C02B-34C4-47EF-AFCD-84A70C906062}" ShortID="257759005">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Rock_01" ID="{609B8334-F77B-4BD9-943F-C508E48C4C1E}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Destroy_Rock_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="142353057"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Rock_01" ID="{609B8334-F77B-4BD9-943F-C508E48C4C1E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Destroy_Rock_02" ID="{0D41A9C0-CBC3-4CE6-A50F-6F3591096055}" ShortID="525615344">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Rock_02" ID="{44E3F46B-7AFA-4F00-9F19-8025A40A1817}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Destroy_Rock_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="946562015"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Rock_02" ID="{44E3F46B-7AFA-4F00-9F19-8025A40A1817}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Destroy_Rock_03" ID="{77FBE52D-4D61-421B-9CDC-05B770066DEF}" ShortID="724760439">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Rock_03" ID="{BBE2254A-89D6-423D-91B8-8D531BC705CF}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Destroy_Rock_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="995899979"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Rock_03" ID="{BBE2254A-89D6-423D-91B8-8D531BC705CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Wood_Destroyer" ID="{511EFDD1-4CED-4667-83E7-95FFC458EB3C}" ShortID="746952057">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_Destroy_Wood_01" ID="{A493B498-5EA6-41BC-8675-A94B7FC3BADF}" ShortID="154914395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Wood_01" ID="{60509C9A-1C0F-4E24-B821-014A654E05C0}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Destroy_Wood_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="54962579"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Wood_01" ID="{60509C9A-1C0F-4E24-B821-014A654E05C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Destroy_Wood_02" ID="{1B88F861-FCC8-4ABD-A11F-60ED13BAC385}" ShortID="1038518700">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Wood_02" ID="{3EAA929A-B369-421A-B00F-6EC3B102C247}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Destroy_Wood_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="539152545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Wood_02" ID="{3EAA929A-B369-421A-B00F-6EC3B102C247}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_Destroy_Wood_03" ID="{D5B8A2B0-9DAB-45BD-8C3A-9B84AD1E153B}" ShortID="859392394">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_Destroy_Wood_03" ID="{CE6E87B1-31FB-467C-A6EE-ACB0CD182F2F}">
+											<Language>SFX</Language>
+											<AudioFile>Destruction\BAS_Destroy_Wood_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="642465486"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_Destroy_Wood_03" ID="{CE6E87B1-31FB-467C-A6EE-ACB0CD182F2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient_Emitters" ID="{755BE0CA-8CB9-47E9-AAAE-A6D39E8DDD3D}" ShortID="966478475">
+					<ChildrenList>
+						<Sound Name="BAS_Crystal_Ringing" ID="{4B429C28-5BFD-4609-A717-7430713F3247}" ShortID="165220237">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Crystal_Ringing" ID="{D48435B0-58B7-4836-8D20-D1781E4D2BEC}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_Crystal_Ringing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="31947370"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Crystal_Ringing" ID="{D48435B0-58B7-4836-8D20-D1781E4D2BEC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_ForestBirds" ID="{7832B0C0-38D1-4552-BEC9-17286395912F}" ShortID="580993760">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_ForestBirds" ID="{552D84BD-73C7-4A84-BAB2-6AE21AA284BB}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_ForestBirds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779433831"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_ForestBirds" ID="{552D84BD-73C7-4A84-BAB2-6AE21AA284BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Lava" ID="{93D78C99-FB51-470B-AB3D-F3168C274083}" ShortID="638401074">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Lava" ID="{52BEA49D-89D4-4F36-B6C8-D836C469999F}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_Lava.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="466677289"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Lava" ID="{52BEA49D-89D4-4F36-B6C8-D836C469999F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Torch" ID="{62ED31E6-810A-4D7B-8B04-B8A537FC7C95}" ShortID="282183695">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Torch" ID="{F61D23D7-2DDC-4107-AED2-3A8B8512335F}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_Torch.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1006472340"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Torch" ID="{F61D23D7-2DDC-4107-AED2-3A8B8512335F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Waterfall" ID="{8FCC542A-C337-4778-ABB6-434F7619CC43}" ShortID="668939163">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Waterfall" ID="{0BAE85C9-3CD5-4208-BF17-3CECEFB8FE39}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_Waterfall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679435525"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Waterfall" ID="{0BAE85C9-3CD5-4208-BF17-3CECEFB8FE39}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Water_River" ID="{8F7390CA-69AB-4D59-803D-C94C4911065C}" ShortID="85886468">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Water_River" ID="{FCCBFB2C-025E-4077-9A2F-1176CB0DCAB8}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_Water_River.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="986926053"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Water_River" ID="{FCCBFB2C-025E-4077-9A2F-1176CB0DCAB8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_WindMillBlade_01" ID="{6078C2C0-0BE7-4CED-A963-6CA282807B92}" ShortID="72561586">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_WindMillBlade_01" ID="{66B19B1D-C534-4DFB-90E5-6C6A4F19E5AC}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_WindMillBlade_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="287277438"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_WindMillBlade_01" ID="{66B19B1D-C534-4DFB-90E5-6C6A4F19E5AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_WindMillBlade_02" ID="{2FD5F145-B0DE-4647-8F7C-B3FCB32DCAC0}" ShortID="312326803">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_WindMillBlade_02" ID="{6901C388-6BC9-4344-AA6F-087365C22A08}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_WindMillBlade_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="21365701"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_WindMillBlade_02" ID="{6901C388-6BC9-4344-AA6F-087365C22A08}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_WindMillBlade_03" ID="{454C3F89-1CA8-4204-9335-C114149B9D1F}" ShortID="494378084">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_WindMillBlade_03" ID="{024058EC-59D6-4E53-A554-C259931637F0}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Emitters\BAS_WindMillBlade_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="835743873"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_WindMillBlade_03" ID="{024058EC-59D6-4E53-A554-C259931637F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Water Random" ID="{B03160CB-4663-403B-A58C-5C92DC04E1E7}" ShortID="453496208">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ObjectAtenuation" ID="{8357F8BC-B20A-45E6-8E41-37CA929BB2B0}" WorkUnitID="{8075E8EF-F098-4A27-87A0-6DC343001532}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_WaterDrops_06" ID="{C69E1F52-4003-49E2-8F05-CF66BD64BD0B}" ShortID="414329632">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_06" ID="{3F298439-D3C0-4E01-91EC-927DFEFA1CAA}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_WaterDrops_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55936971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_06" ID="{3F298439-D3C0-4E01-91EC-927DFEFA1CAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_02" ID="{257C50D4-5E69-43AC-B406-C190A244C53A}" ShortID="967398277">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_02" ID="{92BA8219-89F9-4F83-A36D-AFA56ACBEB11}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_WaterDrops_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="371278453"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_02" ID="{92BA8219-89F9-4F83-A36D-AFA56ACBEB11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_03" ID="{45872CEB-91E8-43C6-90F8-898E9647FDD6}" ShortID="990358240">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_03" ID="{AAAD061D-7BF8-4EC7-A2B3-C57E70D78180}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_WaterDrops_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="88713074"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_03" ID="{AAAD061D-7BF8-4EC7-A2B3-C57E70D78180}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_04" ID="{B2C3B699-05BE-4C15-B3F0-0FD276EA9AF3}" ShortID="335451149">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_04" ID="{036A6F9F-BE10-4F74-805F-EB51C9213897}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_WaterDrops_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568102633"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_04" ID="{036A6F9F-BE10-4F74-805F-EB51C9213897}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_05" ID="{5361A6CD-44BE-4E75-91BA-EC5CBE1C0AF6}" ShortID="1027882709">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_05" ID="{2874E0CA-7249-445F-8623-ACF27AE630E7}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_WaterDrops_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="375984603"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_05" ID="{2874E0CA-7249-445F-8623-ACF27AE630E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_01" ID="{1532D1E7-F5B5-4733-B129-D9C667D17825}" ShortID="16546023">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_01" ID="{99D03A72-AE1C-4F58-9E89-4B7B902034EF}">
+											<Language>SFX</Language>
+											<AudioFile>Ambient_Emitters\BAS_WaterDrops_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="309792776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_01" ID="{99D03A72-AE1C-4F58-9E89-4B7B902034EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambient_Background" ID="{340587B6-FAED-492A-AAB3-B0CC541461B3}" ShortID="168918290">
+					<ChildrenList>
+						<Sound Name="amb_forest_night_background_loop_02" ID="{0E29B085-D2D3-480B-ACEB-542E5362BB91}" ShortID="179862994">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{55B7F403-063D-4DBF-B123-E6D9B4819073}" ShortID="312148422">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5BD73D4F-DE75-4258-9453-DD6ECB7400CB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.81951</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.16666</XPos>
+														<YPos>-0.116590000000002</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{4F07A586-BA6D-4C87-A359-2ED0403F355E}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\amb_forest_night_background_loop_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="345757255"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{4F07A586-BA6D-4C87-A359-2ED0403F355E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_forest_night_background_loop_04" ID="{220D508E-DBBE-425C-8327-80722DE3CEEC}" ShortID="373007020">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{64D46555-1A1A-42B5-B648-B355EB675B28}" ShortID="514585603">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{20397FEC-30D8-4A07-B9DF-9357DEAE3D8A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.81951</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.16666</XPos>
+														<YPos>-0.116590000000002</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{C98C214A-1E6C-43FD-BAA9-E563B24FBF17}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\amb_forest_night_background_loop_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="440742348"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_forest_night_background_loop_04" ID="{C98C214A-1E6C-43FD-BAA9-E563B24FBF17}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_cave_background_LP" ID="{2E983BCC-6505-4408-B3C3-6385D02790C6}" ShortID="240855034">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_cave_background_LP" ID="{94BCB150-8D52-4A3C-8440-AB849C3DFB88}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_cave_background_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1048736443"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_cave_background_LP" ID="{94BCB150-8D52-4A3C-8440-AB849C3DFB88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_desert_day_background_loop_01" ID="{2DB7E055-C168-4BAB-9544-DF57F2DA6C80}" ShortID="17516207">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E24C71AB-0251-4C6F-8FC5-4C054EFBDE6B}" ShortID="67080277">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{645D9F62-AEB0-4DCB-89FD-2590B9787047}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.41026</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12.5641</XPos>
+														<YPos>-0.1952</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19.5641</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_desert_day_background_loop_01" ID="{F253E64D-93A8-4C58-85DA-652CF912AEF5}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_desert_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="455821731"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_desert_day_background_loop_01" ID="{F253E64D-93A8-4C58-85DA-652CF912AEF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_desert_night_background_loop_01" ID="{1FD4B41A-6803-4D7E-9ABA-361C716EF4FD}" ShortID="745923653">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2C3B98C3-F27B-4524-BEF8-CE1F0B5869C7}" ShortID="927499094">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E2A8B2A0-37F2-44AF-8E36-B8B8351D78AC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.81951</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.16666</XPos>
+														<YPos>-0.11659</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_desert_night_background_loop_01" ID="{5AB4B239-A579-42BA-AD16-6F9F041DA27C}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="144602099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_desert_night_background_loop_01" ID="{5AB4B239-A579-42BA-AD16-6F9F041DA27C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{04619E55-7249-400E-A5D3-27CA88C482E2}" ShortID="478489587">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{DA3F93B9-3F09-4920-96AA-42D912BD6E39}" ShortID="678388023">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F7B91C9D-268F-4D17-ADCC-1ED809748147}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.41026</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12.5641</XPos>
+														<YPos>-0.1952</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19.5641</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{29A91CBB-7ADF-4964-88C9-30B73E7F90C7}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="774775178"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{29A91CBB-7ADF-4964-88C9-30B73E7F90C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{3D984860-038A-4CB4-A971-5406F5852496}" ShortID="166163742">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EBFCEC8C-94FE-4A0E-9816-CCDDDF02820F}" ShortID="837724274">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8D808DB-84E8-44F9-818B-D9E226F8EEEC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.41026</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12.5641</XPos>
+														<YPos>-0.1952</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19.5641</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{89B0C737-6647-4824-8958-8F2BF3D6FCB9}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="881445624"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{89B0C737-6647-4824-8958-8F2BF3D6FCB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{C47BE791-28B2-42C6-9A66-D565774F07BC}" ShortID="463319836">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C5453F4A-0134-499D-807F-7E50C6E3E995}" ShortID="320687556">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CF0C4753-DF35-4713-BA0E-85551368947F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.81951</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.16666</XPos>
+														<YPos>-0.116590000000002</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{BFF7CF8D-8899-4FAB-A41E-0ACD03DC192C}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289871628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{BFF7CF8D-8899-4FAB-A41E-0ACD03DC192C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_village_day_background_loop_01" ID="{D6A6A255-C433-4A08-80DA-DCAD87A5FBA4}" ShortID="440637107">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C08F453F-07FC-415B-8063-63EB45AC8D2D}" ShortID="122977591">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E2075B44-43FE-49C7-A454-5BC09C187CDC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.41026</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12.5641</XPos>
+														<YPos>-0.1952</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19.5641</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{AD569D09-D19F-4B3F-8656-BB8C51AA3B90}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="496980359"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{AD569D09-D19F-4B3F-8656-BB8C51AA3B90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_village_night_background_loop_01" ID="{B70D96E0-27A0-42C5-9C22-26596E9010C9}" ShortID="908322890">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6D8975EB-6A53-4E40-9CD5-AFA2B03E24E4}" ShortID="470910631">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{580DAFE7-61FD-494D-A495-3379FF62BFEB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.81951</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.16666</XPos>
+														<YPos>-0.116590000000002</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{48304661-4588-4B3D-B30D-C8980A9835A8}">
+									<Language>SFX</Language>
+									<AudioFile>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="146900515"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{48304661-4588-4B3D-B30D-C8980A9835A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{DE4AAE93-359E-487E-993E-38AE9D1B8BC7}" ShortID="27380721">
+					<ChildrenList>
+						<Folder Name="Combat" ID="{A6AD9C03-F2B5-4F15-8214-3E88FDBFB979}" ShortID="381843970">
+							<ChildrenList>
+								<Sound Name="Cymbal_120BPM_4_4_L8M_P2B" ID="{C6C08E72-DEFD-405B-B2F4-4588A916990C}" ShortID="864242528">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cymbal_120BPM_4_4_L8M_P2B" ID="{76E49097-9E52-4CC1-A782-5C45E8AB1D2A}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Cymbal_120BPM_4_4_L8M_P2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="445967689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cymbal_120BPM_4_4_L8M_P2B" ID="{76E49097-9E52-4CC1-A782-5C45E8AB1D2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_EvilCrawler_120BPM_4_4_L8M_P3B" ID="{E20D471B-B6BD-47CF-9FC7-16E1FD7093AB}" ShortID="382665371">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_EvilCrawler_120BPM_4_4_L8M_P3B" ID="{014EE38C-42D5-4558-8F99-E3D845096656}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Enemy_EvilCrawler_120BPM_4_4_L8M_P3B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="602001472"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_EvilCrawler_120BPM_4_4_L8M_P3B" ID="{014EE38C-42D5-4558-8F99-E3D845096656}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_EvilHead_120BPM_4_4_L8M_P0" ID="{4EE09ACC-8E91-4536-98CD-953715C1881D}" ShortID="268403998">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_EvilHead_120BPM_4_4_L8M_P0" ID="{6CD11037-1637-40D5-A515-718D0711C074}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Enemy_EvilHead_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267940960"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_EvilHead_120BPM_4_4_L8M_P0" ID="{6CD11037-1637-40D5-A515-718D0711C074}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_EvilSpitPlant_120BPM_4_4_L8M_P0" ID="{F119C7C4-9698-485C-93EA-DB638E135BB5}" ShortID="700058416">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_EvilSpitPlant_120BPM_4_4_L8M_P0" ID="{1EED9C60-BAF3-4539-84DA-029D82958F85}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Enemy_EvilSpitPlant_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="360265589"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_EvilSpitPlant_120BPM_4_4_L8M_P0" ID="{1EED9C60-BAF3-4539-84DA-029D82958F85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Tamburine_120BPM_4_4_L8M_P0" ID="{2354F907-CA12-466C-8381-EAB1FA573AA1}" ShortID="715055341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tamburine_120BPM_4_4_L8M_P0" ID="{6C897A2A-0666-49AB-9CC5-2EB6A8914F14}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Tamburine_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128820657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Tamburine_120BPM_4_4_L8M_P0" ID="{6C897A2A-0666-49AB-9CC5-2EB6A8914F14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Tamburine_Quick_120BPM_4_4_L8M_P0" ID="{A970CB83-81D6-49B6-B3F9-5BF94A8EA086}" ShortID="351459245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tamburine_Quick_120BPM_4_4_L8M_P0" ID="{7A3551EB-F612-43C4-B17E-C0616794E870}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Tamburine_Quick_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="553859827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Tamburine_Quick_120BPM_4_4_L8M_P0" ID="{7A3551EB-F612-43C4-B17E-C0616794E870}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Timpani_120BPM_4_4_L8M_P2B" ID="{1C82BCA5-18EF-4CD2-B551-A252FE1AD235}" ShortID="13588006">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Timpani_120BPM_4_4_L8M_P2B" ID="{C302A01A-9B09-4680-98BE-38D666178390}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Timpani_120BPM_4_4_L8M_P2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="698681810"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Timpani_120BPM_4_4_L8M_P2B" ID="{C302A01A-9B09-4680-98BE-38D666178390}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Trumpets_120BPM_4_4_L8M_P0" ID="{092780A4-CC98-40C5-AFC0-B50DC484F64C}" ShortID="160027144">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Trumpets_120BPM_4_4_L8M_P0" ID="{F769D980-C1C4-4641-A317-052E4C94C124}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Combat\Trumpets_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="955162643"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Trumpets_120BPM_4_4_L8M_P0" ID="{F769D980-C1C4-4641-A317-052E4C94C124}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Explore" ID="{E558F2CA-2F76-4BBB-877F-103A990FD198}" ShortID="266407381">
+							<ChildrenList>
+								<Sound Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{AE31F8CB-1220-46C7-8DA3-9D4DC6C13B0A}" ShortID="841774033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{EB222E5E-FAD4-4B63-BECC-33EFF65D2C06}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="113715245"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{EB222E5E-FAD4-4B63-BECC-33EFF65D2C06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Desert_120BPM_4_4_L8M_P0" ID="{280958B0-48B2-45D5-B3A6-7DBFEF819C08}" ShortID="982717691">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{CF33EA86-9D70-44B2-9655-375D3A3181D2}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="255771779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Desert_120BPM_4_4_L8M_P0" ID="{CF33EA86-9D70-44B2-9655-375D3A3181D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{EC344B32-2E51-4A57-B4A9-5B37FFC5CEC7}" ShortID="973058712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{2DF095D6-C7BA-46A8-B0CB-F54014874A84}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920288218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{2DF095D6-C7BA-46A8-B0CB-F54014874A84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Nowhere_120BPM_4_4_L8M_P0" ID="{128DA89C-5FBF-4B31-87F7-7EF5B404C459}" ShortID="854588043">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{325B3B2E-6A66-432F-9058-D045C68D5201}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Nowhere_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="102505637"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{325B3B2E-6A66-432F-9058-D045C68D5201}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Village_120BPM_4_4_L8M_P1M" ID="{85813AF6-D76E-4100-9BEC-1637454B6815}" ShortID="38364710">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{9D849FDD-AC88-4A89-AAB3-2C32CD7B8D67}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="887483525"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Village_120BPM_4_4_L8M_P1M" ID="{9D849FDD-AC88-4A89-AAB3-2C32CD7B8D67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{7BE4B8B6-19DC-43B0-AF06-D8DC9EE3916F}" ShortID="660922448">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Music_Volume" ID="{6925488B-CC85-4657-8918-0FECC8E3F21E}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{49C6914B-14CB-46D5-8544-4743EF4B5723}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165783150"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{49C6914B-14CB-46D5-8544-4743EF4B5723}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{F4394F67-1F7C-472C-8867-9649BE1D86B4}" ShortID="762062039">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{268DE155-606E-497E-BB99-24551B7A2595}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612659208"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{268DE155-606E-497E-BB99-24551B7A2595}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Stingers" ID="{7A3EE362-F8A5-4D90-ABEB-769AA27708C8}" ShortID="896838954">
+							<ChildrenList>
+								<Sound Name="QuickStinger_Death" ID="{2FD7161F-2DC4-4528-B829-60BD78AB4BFF}" ShortID="632369704">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="QuickStinger_Death" ID="{6FD4AE04-FB1F-41FF-891C-26C1FD5DE7EC}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Stingers\QuickStinger_Death.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="997323930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="QuickStinger_Death" ID="{6FD4AE04-FB1F-41FF-891C-26C1FD5DE7EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="QuickStinger_GetItem" ID="{5DA6F954-7EF3-49B0-A1AE-1BA38AAC711E}" ShortID="10906521">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="QuickStinger_GetItem" ID="{2EA2E34D-27DE-4942-840B-A2C5BFA8FC05}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Stingers\QuickStinger_GetItem.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="290824776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="QuickStinger_GetItem" ID="{2EA2E34D-27DE-4942-840B-A2C5BFA8FC05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="QuickStinger_Victory" ID="{04D91634-034A-405F-A1AE-14522E8BC8EF}" ShortID="932315673">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="QuickStinger_Victory" ID="{B74BC451-DD73-4DEF-9A84-B0BFAA02BA53}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Stingers\QuickStinger_Victory.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="832972695"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="QuickStinger_Victory" ID="{B74BC451-DD73-4DEF-9A84-B0BFAA02BA53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Credits_120BPM_4_4_L8M_P0" ID="{72D10AAD-146A-474E-B852-1D5419D259B1}" ShortID="528732980">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Credits_120BPM_4_4_L8M_P0" ID="{930FD388-D973-4FD5-B6D6-C0F2C5CB8B40}">
+									<Language>SFX</Language>
+									<AudioFile>Music\Credits_120BPM_4_4_L8M_P0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="749965950"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Credits_120BPM_4_4_L8M_P0" ID="{930FD388-D973-4FD5-B6D6-C0F2C5CB8B40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{F525FCCB-C264-46D1-9E5D-E2BE7C93C159}" ShortID="388662761">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{3A5B14F8-D5F2-40F8-8053-DFEAE15998C5}">
+									<Language>SFX</Language>
+									<AudioFile>Music\TitleScreen_120BPM_4_4_L41M_P2M.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="503967003"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{3A5B14F8-D5F2-40F8-8053-DFEAE15998C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

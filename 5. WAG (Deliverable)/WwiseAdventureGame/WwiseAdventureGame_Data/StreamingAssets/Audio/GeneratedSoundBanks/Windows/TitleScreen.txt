@@ -1,0 +1,36 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\UI General\UI Menus\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\UI General\UI Menus\UI_Button_Enter	
+	156563189	UI_Button_Down			\Default Work Unit\UI General\UI Menus\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\Default Work Unit\UI General\UI Menus\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\Default Work Unit\UI General\UI Quest Roll\UI_QuestRoll_Close	
+	844130829	Quest_CompleteCollection			\Default Work Unit\UI General\UI Quest Roll\Quest_CompleteCollection	
+	949395292	UI_QuestRoll_Open			\Default Work Unit\UI General\UI Quest Roll\UI_QuestRoll_Open	
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient\Ambient_Region_Woodlands	
+	1464993479	UI_Menu_Resume			\Default Work Unit\UI General\UI Menus\UI_Menu_Resume	
+	2199611969	UI_Inventory_Open			\Default Work Unit\UI General\UI Inventory\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\Default Work Unit\UI General\UI Inventory\UI_Inventory_Close	
+	2325560497	UI_Button_Exit			\Default Work Unit\UI General\UI Menus\UI_Button_Exit	
+	2792117052	UI_QuestRoll_Hide			\Default Work Unit\UI General\UI Quest Roll\UI_QuestRoll_Hide	
+	3237189652	UI_Menu_Pause			\Default Work Unit\UI General\UI Menus\UI_Menu_Pause	
+	3240473869	Quest_Complete			\Default Work Unit\UI General\UI Quest Roll\Quest_Complete	
+	3474566310	UI_Menu_Select			\Default Work Unit\UI General\UI Menus\UI_Menu_Select	
+	3749307760	UI_Inventory_Roll			\Default Work Unit\UI General\UI Inventory\UI_Inventory_Roll	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	36758458	BAS_Inventory_Open	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Open		45368
+	38449853	BAS_QuestRoll_Close	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Close		112326
+	203336695	BAS_Button_Open	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	332767719	BAS_Button_Teleport	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+	345757255	amb_forest_night_background_loop_02	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\amb_forest_night_background_loop_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\amb_forest_night_background_loop_02		4343864
+	483398589	BAS_Button_Enter	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+	586320715	BAS_QuestRoll_Open	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_QuestRoll_Open		104478
+	644939712	BAS_Button_Close	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
+	741947468	BAS_Button_Over	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+	760162598	BAS_Inventory_Close	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Close		46624
+	836281137	BAS_Inventory_Scroll	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\UI\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Scroll		53956
+	881445624	BAS_amb_forest_day_background_loop_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_forest_day_background_loop_01		27990080
+

@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	100151336	Ambient_Campfire_Stop			\Default Work Unit\3D Emitters\Continuous (looped)\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Default Work Unit\3D Emitters\Continuous (looped)\Ambient_Torch	
+	746676127	Music_ArcadeMachine_Stop			\Default Work Unit\3D Emitters\Continuous (looped)\Music_ArcadeMachine_Stop	
+	2379298625	Door_DLCdoor_Open_Stop			\Default Work Unit\3D Emitters\Continuous (looped)\Door_DLCdoor_Open_Stop	
+	2409105241	Music_ArcadeMachine_Play			\Default Work Unit\3D Emitters\Continuous (looped)\Music_ArcadeMachine_Play	
+	3556635307	Door_DLCdoor_Open_Play			\Default Work Unit\3D Emitters\Continuous (looped)\Door_DLCdoor_Open_Play	
+	3664581270	Ambient_Campfire_Play			\Default Work Unit\3D Emitters\Continuous (looped)\Ambient_Campfire_Play	
+	3741135221	Music_Region			\Default Work Unit\Music_Region	
+	4254124015	Destruction_Container			\Default Work Unit\Destruction\Destruction_Container	
+	4275106484	Ambient_Lava			\Default Work Unit\3D Emitters\Continuous (looped)\Ambient_Lava	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1774805	BAS_Crate_Destroy_03	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate_Destroyer\BAS_Crate_Destroy_03		126766
+	156977604	BAS_Crate_Destroy_05	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate_Destroyer\BAS_Crate_Destroy_05		96618
+	165783150	Woodlands_Day_120BPM_4_4_L8M_P0	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0		3840144
+	413054229	BAS_Crate_Destroy_02	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate_Destroyer\BAS_Crate_Destroy_02		142344
+	466677289	BAS_Lava	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1228864
+	930835932	BAS_Crate_Destroy_04	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate_Destroyer\BAS_Crate_Destroy_04		146626
+	932511422	BAS_Crate_Destroy_06	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate_Destroyer\BAS_Crate_Destroy_06		125070
+	1006472340	BAS_Torch	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Torch		448492
+	1055919339	BAS_Crate_Destroy_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate_Destroyer\BAS_Crate_Destroy_01		89580
+

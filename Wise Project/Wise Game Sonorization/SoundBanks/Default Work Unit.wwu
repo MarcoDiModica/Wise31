@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7B7B2BC3-372B-43E0-89B7-D43A476B7581}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7B7B2BC3-372B-43E0-89B7-D43A476B7581}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TitleScreen" ID="{D092BFC6-3873-4742-B102-D588C905615B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_Button_Exit" ID="{E6BF2D95-EAB5-40B3-AE88-48BC4703F1D2}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Close" ID="{29D438CE-BC89-40E4-8017-2DC7A2F7B19C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Select" ID="{3B3014B4-BDE8-4177-85C1-FD7800B805D2}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{F058D856-943A-4469-B468-2E0B852804C4}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Close" ID="{33B8EE38-5416-44D7-A87F-9AE58C82E94A}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest_CompleteCollection" ID="{0AB21695-FD75-45B6-917B-16617CAE3BBA}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Hide" ID="{1943E6B1-B203-483F-B16E-59104F2FB0AA}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Down" ID="{AB306B20-E5DD-4861-9454-5C2EEAE473D3}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{F8B1C016-EC5E-48EB-BB04-44CCC8D48949}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest_Complete" ID="{C44F29C6-AAE2-49FC-94F3-26453ED20A8C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Resume" ID="{4D750C95-4737-4CC4-968F-81981595A0B9}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Pause" ID="{5EE504A9-DA79-4CDE-B744-2667E8F441A0}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{32ABDF04-1D33-4D9D-BF5B-CEFAB4DA3696}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Open" ID="{644F812F-D8FE-4E9F-8C9B-D72466F83B50}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Up" ID="{12E3A4FF-4D0F-4FAF-B7DE-C034A7E8E26E}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Enter" ID="{5388EBF9-99C6-4FC4-AB3B-4F514415F3CD}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Teleport" ID="{37414922-91CA-4FD0-B043-791CFF29451E}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="General" ID="{E923CAE5-ED31-494D-9BCD-D7EDD38B0A52}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Region" ID="{BD9EA8A3-5C16-4265-A7EB-9CE5763858B0}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_ArcadeMachine_Play" ID="{0B4C4E03-333C-447A-8204-5C19DE0CB114}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{6959F5D2-80AC-44A7-9AEE-D17D9ABC7DE7}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Lava" ID="{3E00B70A-A5D3-4649-8D5F-BBB060ACBCA0}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Stop" ID="{86AD9F43-41C4-471C-A1F9-485CAE4D2088}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Play" ID="{CC960075-64F0-4721-86EF-B852A2409FDF}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Container" ID="{861C4157-119B-4A63-A391-90DE596C0CBE}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_DLCdoor_Open_Stop" ID="{548BEA46-487A-4BFA-8B97-39E4E407C6A5}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_DLCdoor_Open_Play" ID="{A4A56510-4F07-4CF6-AE56-EF5D7E9DE3C1}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_ArcadeMachine_Stop" ID="{181CE7F6-744B-4E00-981B-6798AF69C141}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<Folder Name="Regions" ID="{3363281A-41D6-46B0-8D6B-70E998724E1D}" ShortID="94907303">
+					<ChildrenList>
+						<SoundBank Name="Woodlands" ID="{BACF5077-8FED-440A-8811-CD230EF6ACD0}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Waterfall" ID="{05C833E7-98EB-40A1-8943-9A44D9CE2977}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Region_Woodlands" ID="{32ABDF04-1D33-4D9D-BF5B-CEFAB4DA3696}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Cave" ID="{881D3753-CD15-4DDE-B14B-020CAC8966C4}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Destruction_Crystal_Destroy" ID="{0BE3921D-4885-4517-A340-F2714923603C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Crystal_Hum" ID="{06FEF25E-9447-4566-B322-837335F6C063}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_WaterDrop" ID="{C14B49A9-1034-4B92-90D3-EB417C73B652}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Region_Cave" ID="{D4882B89-9D72-4CBC-B955-3B1080BCA30C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="PineForest" ID="{A13F7667-E6F1-4975-96AD-B9989FA172B4}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_PineForest" ID="{B342B82C-3F2E-4CE9-8BF0-F4F06529E116}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Village" ID="{2C620585-4B9F-4826-A93C-FA62D5A9993F}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_Village" ID="{5A18836B-0BCC-430D-8CAF-3020172E35F2}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_River" ID="{770D3ADE-7D02-443F-B41F-5218AB03467C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Ambient_Windmill" ID="{E2BD23A6-DFCC-4824-A1F9-73098625E5B7}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Desert" ID="{53826DA1-822C-4B1C-9F2A-FAA706E70830}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_Desert" ID="{DE9A6C1C-AAB1-43A6-88CE-78EC1839DE55}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{5C671B88-2905-48F7-BA07-7F09754B669C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Door_TempleDoor_Open_Play" ID="{E90A7BBD-75C5-4B4C-97B5-22A2634B55C9}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Dungeon" ID="{5C2DF38F-4EE7-456E-A659-D36DB9F4FFEC}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Ambient_Region_Dungeon" ID="{8D8C796A-8897-403A-BD5A-B0EF19A69CE0}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Destruction_Rock_Destroy" ID="{A9A36C85-693B-43D8-9815-D2D4EB5CF494}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

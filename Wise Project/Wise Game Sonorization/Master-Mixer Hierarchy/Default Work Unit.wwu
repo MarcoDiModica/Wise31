@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51521E0B-DF28-458E-B80E-4B784020B728}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{51521E0B-DF28-458E-B80E-4B784020B728}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{04F1CB1E-E3EA-4BA8-83AE-17AEBB29E3DA}" WorkUnitID="{C8B0FCA4-699A-434E-9777-487542AD43F5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MenuSlider_Music_Volume" ID="{6925488B-CC85-4657-8918-0FECC8E3F21E}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{485F4085-B7C6-4FB3-BD39-A0DBCFF48111}" WorkUnitID="{C8B0FCA4-699A-434E-9777-487542AD43F5}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

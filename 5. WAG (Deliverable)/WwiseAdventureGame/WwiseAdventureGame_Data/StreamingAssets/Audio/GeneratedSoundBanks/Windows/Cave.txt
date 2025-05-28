@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	448719855	Destruction_Crystal_Destroy			\Default Work Unit\Destruction\Destruction_Crystal_Destroy	
+	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient\Ambient_Region_Cave	
+	2355650095	Ambient_Crystal_Hum			\Default Work Unit\3D Emitters\Continuous (looped)\Ambient_Crystal_Hum	
+	2644063196	Ambient_WaterDrop			\Default Work Unit\3D Emitters\One-shots (no loop, single one-shot sound per event)\Ambient_WaterDrop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31947370	BAS_Crystal_Ringing	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_Crystal_Ringing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Crystal_Ringing		2469744
+	55936971	BAS_WaterDrops_06	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Water Random\BAS_WaterDrops_06		77824
+	88713074	BAS_WaterDrops_03	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Water Random\BAS_WaterDrops_03		51264
+	309792776	BAS_WaterDrops_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Water Random\BAS_WaterDrops_01		28736
+	371278453	BAS_WaterDrops_02	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Water Random\BAS_WaterDrops_02		38976
+	375984603	BAS_WaterDrops_05	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Water Random\BAS_WaterDrops_05		43264
+	568102633	BAS_WaterDrops_04	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\Water Random\BAS_WaterDrops_04		57408
+	994843975	BAS_Crystals_Destroy	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\BAS_Crystals_Destroy		191776
+	1048736443	BAS_amb_cave_background_LP	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_cave_background_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_cave_background_LP		14786860
+

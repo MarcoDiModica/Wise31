@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2541270269	Destruction_VolcanicBoulder_Impact			\Default Work Unit\Destruction\Destruction_VolcanicBoulder_Impact	
+	3408705206	Ambient_Region_Desert			\Default Work Unit\Ambient\Ambient_Region_Desert	
+	3492604883	Door_TempleDoor_Open_Play			\Default Work Unit\3D Emitters\One-shots (no loop, single one-shot sound per event)\Door_TempleDoor_Open_Play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	144602099	BAS_amb_desert_night_background_loop_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_night_background_loop_01		11931200
+	455821731	BAS_amb_desert_day_background_loop_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_day_background_loop_01		21299264
+	679045802	Explosion	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768144
+
