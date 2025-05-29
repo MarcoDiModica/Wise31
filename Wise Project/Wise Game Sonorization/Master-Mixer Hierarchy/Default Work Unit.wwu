@@ -4,6 +4,36 @@
 		<WorkUnit Name="Default Work Unit" ID="{51521E0B-DF28-458E-B80E-4B784020B728}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{B2B308BB-0AAA-4656-9EAA-C54720E1A3AE}" ShortID="327428529">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MenuSlider_Master_Volume" ID="{AD2572CB-2830-4ABC-B62C-9E95C5E99BD2}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B026D502-9BDF-4A0E-96B7-39E927858C69}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{04F1CB1E-E3EA-4BA8-83AE-17AEBB29E3DA}" WorkUnitID="{C8B0FCA4-699A-434E-9777-487542AD43F5}"/>
@@ -11,6 +41,36 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="MenuSlider_Music_Volume" ID="{6925488B-CC85-4657-8918-0FECC8E3F21E}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2D563CD7-AC9A-4CFC-85D4-138A15F5DE97}" ShortID="496039553">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MenuSlider_Music_Volume" ID="{0B03B8C1-BF7F-4986-B06E-538ACA2F757F}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C5BBFEAC-5286-4357-BAD8-CD21080DF5AD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>
