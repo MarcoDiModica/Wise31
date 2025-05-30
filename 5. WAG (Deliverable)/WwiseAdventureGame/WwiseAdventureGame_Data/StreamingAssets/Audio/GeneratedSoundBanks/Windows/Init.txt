@@ -18,8 +18,35 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	1015240629	Master Auxiliary Bus			\Default Work Unit\Master Auxiliary Bus	
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
 	2642438544	MenuSlider_Music_Volume			\Default Work Unit\MenuSlider_Master_Volume\MenuSlider_Music_Volume	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	243931001	Dungeon_Forge			\Default Work Unit\Master Auxiliary Bus\Dungeon_Forge	
+	425911480	Dungeon_Library_Statue			\Default Work Unit\Master Auxiliary Bus\Dungeon_Library_Statue	
+	567469275	Dungeon_PathToForge			\Default Work Unit\Master Auxiliary Bus\Dungeon_PathToForge	
+	1156828694	Dungeon_Entrance			\Default Work Unit\Master Auxiliary Bus\Dungeon_Entrance	
+	1941785149	Dungeon_Library			\Default Work Unit\Master Auxiliary Bus\Dungeon_Library	
+	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\Master Auxiliary Bus\Dungeon_MezzanineRoomEntrance	
+	2106540524	Dungeon_RoadToCore			\Default Work Unit\Master Auxiliary Bus\Dungeon_RoadToCore	
+	2213850905	Dungeon_Core			\Default Work Unit\Master Auxiliary Bus\Dungeon_Core	
+	3352684520	CaveEntrance			\Default Work Unit\Master Auxiliary Bus\CaveEntrance	
+	4122393694	Cave			\Default Work Unit\Master Auxiliary Bus\Cave	
+	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Auxiliary Bus\Dungeon_MezzanineRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	156193455	Cave_Entrance	Wwise RoomVerb			
+	243931001	Dungeon_Forge	Wwise RoomVerb			
+	567469275	Dungeon_PathToForge	Wwise RoomVerb			
+	1156828694	Dungeon_Entrance	Wwise RoomVerb			
+	1941785149	Dungeon_Library	Wwise RoomVerb			
+	2026127448	Dungeon_MezzanineRoomEntrance	Wwise RoomVerb			
+	2106540524	Dungeon_RoadToCore	Wwise RoomVerb			
+	2213850905	Dungeon_Core	Wwise RoomVerb			
+	2513915904	Hall_Large	Wwise RoomVerb			
+	3347617524	Dungeon_Statue	Wwise RoomVerb			
+	4158999182	Dungeon_MezzanineRoom	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

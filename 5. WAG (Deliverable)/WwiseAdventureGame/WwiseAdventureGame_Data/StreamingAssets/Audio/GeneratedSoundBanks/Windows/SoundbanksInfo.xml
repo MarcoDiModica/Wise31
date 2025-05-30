@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Usuario\Documents\GitHub\Wise31\5. WAG (Deliverable)\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\</ProjectRoot>
+		<SourceFilesRoot>D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\CITM\4th\audio\Wise31\5. WAG (Deliverable)\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="997106325">
+		<SoundBank Id="133642231" Language="SFX" Hash="898898515">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -829,7 +829,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="2960542766">
+		<SoundBank Id="152105657" Language="SFX" Hash="1375334698">
 			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -979,7 +979,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="3481857296">
+		<SoundBank Id="608898761" Language="SFX" Hash="1300598973">
 			<ObjectPath>\SoundBanks\Default Work Unit\Regions\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -1009,20 +1009,30 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-			<GameParameters>
-				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
-			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4079480722">
+		<SoundBank Id="1355168291" Language="SFX" Hash="283641780">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_Forge"/>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_Library_Statue"/>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_PathToForge"/>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_Entrance"/>
+				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_Library"/>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_MezzanineRoomEntrance"/>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_RoadToCore"/>
+				<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_Core"/>
+				<AuxBus Id="3352684520" Name="CaveEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\CaveEntrance"/>
+				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Cave"/>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Auxiliary Bus\Dungeon_MezzanineRoom"/>
+			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="2141703195">
+		<SoundBank Id="1421251628" Language="SFX" Hash="1858546108">
 			<ObjectPath>\SoundBanks\Default Work Unit\Regions\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -1052,7 +1062,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="673250461">
+		<SoundBank Id="1850388778" Language="SFX" Hash="2432012079">
 			<ObjectPath>\SoundBanks\Default Work Unit\Regions\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -1083,7 +1093,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="4015814791">
+		<SoundBank Id="2482365692" Language="SFX" Hash="2318333768">
 			<ObjectPath>\SoundBanks\Default Work Unit\Regions\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -1105,7 +1115,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="2075403274">
+		<SoundBank Id="3945572659" Language="SFX" Hash="1528750770">
 			<ObjectPath>\SoundBanks\Default Work Unit\Regions\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -1143,7 +1153,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="2004142035">
+		<SoundBank Id="4122393694" Language="SFX" Hash="240310137">
 			<ObjectPath>\SoundBanks\Default Work Unit\Regions\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>
@@ -1201,6 +1211,32 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="55936971" Language="SFX">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
+					<Path>SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem</Path>
+				</File>
+				<File Id="88713074" Language="SFX">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
+					<Path>SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem</Path>
+				</File>
+				<File Id="309792776" Language="SFX">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+					<Path>SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem</Path>
+				</File>
+				<File Id="371278453" Language="SFX">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
+					<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem</Path>
+				</File>
+				<File Id="375984603" Language="SFX">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
+					<Path>SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem</Path>
+				</File>
+				<File Id="568102633" Language="SFX">
+					<ShortName>Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
+					<Path>SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

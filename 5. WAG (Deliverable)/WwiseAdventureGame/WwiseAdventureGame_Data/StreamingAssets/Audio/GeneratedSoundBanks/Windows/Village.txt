@@ -7,8 +7,8 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	146900515	BAS_amb_village_night_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_night_background_loop_01		23457856
-	496980359	BAS_amb_village_day_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_day_background_loop_01		28801088
-	835743873	BAS_WindMillBlade_03	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_WindMillBlade_03		352320
-	986926053	BAS_Water_River	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072144
+	146900515	BAS_amb_village_night_background_loop_01	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_night_background_loop_01		23457856
+	496980359	BAS_amb_village_day_background_loop_01	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_village_day_background_loop_01		28801088
+	835743873	BAS_WindMillBlade_03	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_WindMillBlade_03		352320
+	986926053	BAS_Water_River	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072144
 

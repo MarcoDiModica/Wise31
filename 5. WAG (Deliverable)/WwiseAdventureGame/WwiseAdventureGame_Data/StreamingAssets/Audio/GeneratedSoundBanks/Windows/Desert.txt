@@ -7,7 +7,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	144602099	BAS_amb_desert_night_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_night_background_loop_01		11931200
-	455821731	BAS_amb_desert_day_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_day_background_loop_01		21299264
-	679045802	Explosion	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768144
+	144602099	BAS_amb_desert_night_background_loop_01	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_night_background_loop_01		11931200
+	455821731	BAS_amb_desert_day_background_loop_01	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_desert_day_background_loop_01		21299264
+	679045802	Explosion	D:\CITM\4th\audio\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768144
 

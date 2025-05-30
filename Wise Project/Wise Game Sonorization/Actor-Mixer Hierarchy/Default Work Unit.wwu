@@ -341,7 +341,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+									<ObjectRef Name="Master Auxiliary Bus" ID="{EF01ECB7-CDCF-481D-81FF-0C429E4E2A3F}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -915,7 +915,13 @@
 						</Sound>
 						<RandomSequenceContainer Name="Water Random" ID="{B03160CB-4663-403B-A58C-5C92DC04E1E7}" ShortID="453496208">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>0.7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -925,7 +931,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+									<ObjectRef Name="Master Auxiliary Bus" ID="{EF01ECB7-CDCF-481D-81FF-0C429E4E2A3F}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1225,6 +1231,7 @@
 						<Sound Name="BAS_amb_cave_background_LP" ID="{2E983BCC-6505-4408-B3C3-6385D02790C6}" ShortID="240855034">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1404,58 +1411,11 @@
 						<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{04619E55-7249-400E-A5D3-27CA88C482E2}" ShortID="478489587">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{DA3F93B9-3F09-4920-96AA-42D912BD6E39}" ShortID="678388023">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Time_of_Day" ID="{B25B3A1D-B362-4491-9F1F-3796D025836C}" WorkUnitID="{89834197-5743-4E2E-9F3D-0DA78F65A3E1}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{F7B91C9D-268F-4D17-ADCC-1ED809748147}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>-200</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>6</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>6.41026</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>12.5641</XPos>
-														<YPos>-0.1952</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>19.5641</XPos>
-														<YPos>0</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>20</XPos>
-														<YPos>-200</YPos>
-														<Flags>0</Flags>
-													</Point>
-													<Point>
-														<XPos>24</XPos>
-														<YPos>-200</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1463,7 +1423,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+									<ObjectRef Name="Master Auxiliary Bus" ID="{EF01ECB7-CDCF-481D-81FF-0C429E4E2A3F}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1475,6 +1435,9 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{670A49B5-A091-46FA-956D-F72F92F79F20}"/>
+							</PositioningInfo>
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{29A91CBB-7ADF-4964-88C9-30B73E7F90C7}" Platform="Linked"/>
@@ -2273,12 +2236,15 @@
 					</ChildrenList>
 				</Folder>
 				<BlendContainer Name="Footsteps" ID="{184EF37C-27D8-4775-A2D1-A566FB7CC43B}" ShortID="978586206">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+							<ObjectRef Name="Master Auxiliary Bus" ID="{EF01ECB7-CDCF-481D-81FF-0C429E4E2A3F}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -4794,7 +4760,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B9807D0-22AE-4F71-92BA-17BC11D74F41}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="MenuSlider_Master_Volume" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
+							<ObjectRef Name="Master Auxiliary Bus" ID="{EF01ECB7-CDCF-481D-81FF-0C429E4E2A3F}" WorkUnitID="{51521E0B-DF28-458E-B80E-4B784020B728}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Player_Weapon_Type" ID="{E5021ADA-960A-42AF-90EE-25CDC237085E}" WorkUnitID="{62D4C67E-461E-4C01-A2F2-BD07B916025B}"/>

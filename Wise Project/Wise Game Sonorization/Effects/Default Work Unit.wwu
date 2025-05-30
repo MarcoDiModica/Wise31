@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{46B2F835-B7F2-4F2C-818A-037748D23485}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{46B2F835-B7F2-4F2C-818A-037748D23485}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{46B2F835-B7F2-4F2C-818A-037748D23485}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Cave" ID="{5BA5132E-B745-4938-AA75-D26ECBE18C59}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="2.7"/>
+						<Property Name="RoomSize" Type="Real32" Value="40"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Cave_Entrance" ID="{083FD264-14CE-4D6F-86B3-6191EE610E78}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1"/>
+						<Property Name="Density" Type="Real32" Value="65"/>
+						<Property Name="HFDamping" Type="Real32" Value="1.35"/>
+						<Property Name="PreDelay" Type="Real32" Value="23"/>
+						<Property Name="Quality" Type="int32" Value="6"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-13"/>
+						<Property Name="RoomSize" Type="Real32" Value="-25"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Dungeon_Core" ID="{48D9E218-0AED-46E0-9C2A-C2E2BBB719B2}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.8"/>
+						<Property Name="RoomSize" Type="Real32" Value="15"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Dungeon_Entrance" ID="{ED50D66F-0578-41E4-BFA5-C26A753C7D1B}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1"/>
+						<Property Name="PreDelay" Type="Real32" Value="17"/>
+						<Property Name="RoomSize" Type="Real32" Value="13"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Dungeon_Forge" ID="{CBB6B585-A7F7-433F-8559-731095DE180A}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="2"/>
+						<Property Name="PreDelay" Type="Real32" Value="17"/>
+						<Property Name="RoomSize" Type="Real32" Value="43"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Dungeon_Library" ID="{2C9D758F-F40E-43D0-914A-CD030785E9E4}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+						<Property Name="PreDelay" Type="Real32" Value="19"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Dungeon_MezzanineRoom" ID="{B117B7CA-F47C-4705-AB29-7FBE1B0EB3E5}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="Dungeon_MezzanineRoomEntrance" ID="{924F82F8-40B7-4996-A3DD-895833B23F14}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="Dungeon_PathToForge" ID="{63512C52-D090-4DB0-98E2-F8F215AC152A}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="Dungeon_RoadToCore" ID="{1792BA88-6497-4D27-91B9-B91EFE732070}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+				<Effect Name="Dungeon_Statue" ID="{D8F45BF8-5112-4F1B-B247-8B3A81A9230E}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

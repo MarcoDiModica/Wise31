@@ -56,6 +56,7 @@
 						</SoundBank>
 						<SoundBank Name="Cave" ID="{881D3753-CD15-4DDE-B14B-020CAC8966C4}">
 							<ObjectInclusionList>
+								<ObjectRef Name="Water Random" ID="{B03160CB-4663-403B-A58C-5C92DC04E1E7}" WorkUnitID="{10DE9265-F97E-4074-885A-4D86E2FAE67F}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Destruction_Crystal_Destroy" ID="{0BE3921D-4885-4517-A340-F2714923603C}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Ambient_Crystal_Hum" ID="{06FEF25E-9447-4566-B322-837335F6C063}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Ambient_WaterDrop" ID="{C14B49A9-1034-4B92-90D3-EB417C73B652}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
