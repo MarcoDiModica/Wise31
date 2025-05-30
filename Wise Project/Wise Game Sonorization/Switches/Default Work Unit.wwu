@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{62D4C67E-461E-4C01-A2F2-BD07B916025B}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{62D4C67E-461E-4C01-A2F2-BD07B916025B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{62D4C67E-461E-4C01-A2F2-BD07B916025B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{2B5D558F-2322-43A9-B974-654A9AA06773}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{2CB4006B-48B1-4D89-B252-38AEC9211B73}"/>
+						<Switch Name="Dirt" ID="{C5C83F35-6877-4C48-B0C4-E8055370199E}"/>
+						<Switch Name="Rubble" ID="{FA5517CA-2B1E-45F2-8434-158E8855F4FE}"/>
+						<Switch Name="Sand" ID="{46C28369-7C03-456F-9C02-16CD364B542A}"/>
+						<Switch Name="Stone" ID="{17C9638C-A0D2-4B82-84E1-957390EFA7F3}"/>
+						<Switch Name="Water" ID="{A03D90C5-57A2-4C65-B90C-88DFAB120ACE}"/>
+						<Switch Name="Wood" ID="{4D29B1EB-6BF3-4F03-98EE-BBCE554DB196}"/>
+						<Switch Name="Crate" ID="{FC383D4F-FAF3-4BE5-AC92-82682A81989D}"/>
+						<Switch Name="Barrel" ID="{E9836356-0FE7-402A-B6EC-28F216998D00}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{E5021ADA-960A-42AF-90EE-25CDC237085E}">
+					<ChildrenList>
+						<Switch Name="PickAxe" ID="{B05DDE12-31E7-4778-86A0-2743B1FE37AD}"/>
+						<Switch Name="Sword" ID="{7F3EEE07-C627-4BD7-B786-A36772EEBEAF}"/>
+						<Switch Name="Dagger" ID="{42BF7722-641D-402E-B188-4B508330C07C}"/>
+						<Switch Name="Hammer" ID="{68F1D295-2D4D-4B31-B3EC-387BF723E11E}"/>
+						<Switch Name="Axe" ID="{873CFD7A-6BEE-4435-A8D4-3CDE96298298}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

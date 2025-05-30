@@ -11,6 +11,11 @@
 				</GameParameter>
 				<GameParameter Name="MenuSlider_Master_Volume" ID="{AD2572CB-2830-4ABC-B62C-9E95C5E99BD2}"/>
 				<GameParameter Name="MenuSlider_Music_Volume" ID="{0B03B8C1-BF7F-4986-B06E-538ACA2F757F}"/>
+				<GameParameter Name="Player_MovementSpeed" ID="{137D2B79-8701-4F17-90A7-00B55681C10E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
