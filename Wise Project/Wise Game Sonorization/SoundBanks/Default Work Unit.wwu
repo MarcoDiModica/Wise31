@@ -28,6 +28,7 @@
 				</SoundBank>
 				<SoundBank Name="General" ID="{E923CAE5-ED31-494D-9BCD-D7EDD38B0A52}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Player_WeaponImpact" ID="{25CE2987-2996-4170-B479-CCB69D01DEC3}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Region" ID="{BD9EA8A3-5C16-4265-A7EB-9CE5763858B0}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_ArcadeMachine_Play" ID="{0B4C4E03-333C-447A-8204-5C19DE0CB114}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Torch" ID="{6959F5D2-80AC-44A7-9AEE-D17D9ABC7DE7}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
@@ -35,6 +36,7 @@
 						<ObjectRef Name="Ambient_Campfire_Stop" ID="{86AD9F43-41C4-471C-A1F9-485CAE4D2088}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Campfire_Play" ID="{CC960075-64F0-4721-86EF-B852A2409FDF}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_Container" ID="{861C4157-119B-4A63-A391-90DE596C0CBE}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{9EFA8918-4E6F-4B09-A7E1-4EA2E2FC96CA}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_DLCdoor_Open_Stop" ID="{548BEA46-487A-4BFA-8B97-39E4E407C6A5}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_DLCdoor_Open_Play" ID="{A4A56510-4F07-4CF6-AE56-EF5D7E9DE3C1}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_ArcadeMachine_Stop" ID="{181CE7F6-744B-4E00-981B-6798AF69C141}" WorkUnitID="{F685A4DA-7DC2-451B-A4FB-6479A7A231A2}" Origin="Manual" Filter="7"/>
