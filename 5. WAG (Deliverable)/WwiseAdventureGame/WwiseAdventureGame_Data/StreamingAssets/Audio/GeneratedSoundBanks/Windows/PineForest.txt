@@ -5,6 +5,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	289871628	BAS_amb_pineforest_night_background_loop_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_pineforest_night_background_loop_01		13829348
-	881445624	BAS_amb_forest_day_background_loop_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_forest_day_background_loop_01		27990080
+	289871628	BAS_amb_pineforest_night_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_pineforest_night_background_loop_01		13829348
+	881445624	BAS_amb_forest_day_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_forest_day_background_loop_01		27990080
 

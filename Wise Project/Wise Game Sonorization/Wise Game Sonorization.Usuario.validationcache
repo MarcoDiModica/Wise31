@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Wise Game Sonorization.wproj" DateLow="1748599630" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Wise Game Sonorization.Usuario.wsettings" DateLow="1748609903" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1748599630" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Virtual Acoustics\Default Work Unit.wwu" DateLow="1748599630" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Triggers\Default Work Unit.wwu" DateLow="1748599630" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Switches\Default Work Unit.wwu" DateLow="1748599630" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Switches\Default Work Unit.wwu" DateLow="1748603609" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\States\Default Work Unit.wwu" DateLow="1748599630" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1748599630" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\SoundBanks\Default Work Unit.wwu" DateLow="1748599630" DateHigh="0"/>
@@ -20,8 +21,8 @@
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1748599627" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1748599627" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Game Parameters\Factory Motion.wwu" DateLow="1748599627" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Game Parameters\Default Work Unit.wwu" DateLow="1748599627" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Events\Default Work Unit.wwu" DateLow="1748599627" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Game Parameters\Default Work Unit.wwu" DateLow="1748603609" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Events\Default Work Unit.wwu" DateLow="1748609903" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Effects\Factory Reflect.wwu" DateLow="1748599627" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Effects\Factory McDSP Effects.wwu" DateLow="1748599627" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Effects\Factory Mastering Suite.wwu" DateLow="1748599627" DateHigh="0"/>
@@ -44,5 +45,5 @@
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1748599627" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1748599627" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1748599627" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1748599627" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1748603609" DateHigh="0"/>
 </ValidationCache>

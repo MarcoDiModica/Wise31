@@ -6,8 +6,8 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	142353057	BAS_Destroy_Rock_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroyer\BAS_Destroy_Rock_01		105536
-	774775178	BAS_amb_dungeon_day_background_loop_01	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_dungeon_day_background_loop_01		24641600
-	946562015	BAS_Destroy_Rock_02	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroyer\BAS_Destroy_Rock_02		119872
-	995899979	BAS_Destroy_Rock_03	C:\Users\mdimo\Downloads\Wise\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroyer\BAS_Destroy_Rock_03		87104
+	142353057	BAS_Destroy_Rock_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroyer\BAS_Destroy_Rock_01		105536
+	774775178	BAS_amb_dungeon_day_background_loop_01	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\BAS_amb_dungeon_day_background_loop_01		24641600
+	946562015	BAS_Destroy_Rock_02	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroyer\BAS_Destroy_Rock_02		119872
+	995899979	BAS_Destroy_Rock_03	C:\Users\Usuario\Documents\GitHub\Wise31\Wise Project\Wise Game Sonorization\.cache\Windows\SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Rock_Destroyer\BAS_Destroy_Rock_03		87104
 

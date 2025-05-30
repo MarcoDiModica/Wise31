@@ -479,6 +479,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_WeaponImpact" ID="{25CE2987-2996-4170-B479-CCB69D01DEC3}">
+					<ChildrenList>
+						<Action Name="" ID="{1B4E1F25-DC9B-4569-B910-C63091950636}" ShortID="538289949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_WeaponImpact" ID="{0B965D15-593A-4D76-A63B-AC6893505FA4}" WorkUnitID="{10DE9265-F97E-4074-885A-4D86E2FAE67F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Footstep" ID="{9EFA8918-4E6F-4B09-A7E1-4EA2E2FC96CA}">
+					<ChildrenList>
+						<Action Name="" ID="{3B46DE2B-DA1C-40AC-A905-35417AD8A790}" ShortID="40095118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{184EF37C-27D8-4775-A2D1-A566FB7CC43B}" WorkUnitID="{10DE9265-F97E-4074-885A-4D86E2FAE67F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
